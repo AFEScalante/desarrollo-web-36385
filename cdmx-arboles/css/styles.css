@@ -1,0 +1,79 @@
+/* Estilos para selectores genéricos */
+body {
+    background-color: #cad2c5;
+    color: #52796f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+.bgColor {
+    background-color: #52796f;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+h1 {
+    color: greenyellow;
+    text-shadow: 2px 2px 4px #000;
+}
+
+a.navlinks {
+    outline: none;
+    text-decoration: none;
+    padding: 5px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+a:link {
+    color: greenyellow;
+}
+
+a:visited {
+    color: greenyellow;
+}
+
+/* Estilos para el header */
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #354f52;
+    color: #cad2c5;
+    align-items: baseline;
+}
+
+.logo {
+    width: 20px;
+}
+
+/* Estilos para main */
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    overflow: hidden;
+}
+
+article.post {
+    margin: 5px;
+    border: 1px solid #354f52;
+    border-radius: 3px;
+}
+
+/* Estilos para el footer */
+footer {
+    color: #cad2c5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-shadow: 2px 2px 4px #000;  
+}
+
