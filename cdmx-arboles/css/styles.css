@@ -55,11 +55,10 @@ header {
 }
 
 /* Estilos para main */
-.home {
+section.home {
     display: flex;
-    flex-wrap: wrap;
-    margin: 5%;
-    overflow: hidden;
+    flex-direction: column;
+    margin: 2.5%;
 }
 
 article.post {
