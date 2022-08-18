@@ -41,8 +41,16 @@ a:visited {
     color: greenyellow;
 }
 
+/* Definición del grid page */
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1.2em;
+}
+
 /* Estilos para el header */
 header {
+    grid-column: 1/-1;
     display: flex;
     flex-direction: row;
     background-color: #354f52;
@@ -55,20 +63,36 @@ header {
 }
 
 /* Estilos para main */
+main {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
 section.home {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 2.5%;
+    justify-content: space-around;
+}
+
+.home-intro {
+    width: 50%;
+    margin: 10px;
 }
 
 article.post {
-    margin: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
     border: 1px solid #354f52;
+    color: white;
+    background-color: #354f52;
     border-radius: 3px;
 }
 
 /* Estilos para el footer */
 footer {
+    grid-column: 1/-1;
     color: #cad2c5;
     display: flex;
     flex-direction: row;
