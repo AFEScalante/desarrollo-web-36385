@@ -142,7 +142,15 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    text-shadow: 2px 2px 4px #000;  
+    text-shadow: 2px 2px 4px #000;
+}
+
+footer h3 {
+    transition: 0.5s;
+}
+
+footer h3:hover {
+    font-size: 16px;
 }
 
 /* Media Queries */
