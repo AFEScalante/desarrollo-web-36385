@@ -1,0 +1,66 @@
+/* Estilos para main */
+.grid-container {
+
+    /* Definición del grid */
+    display: grid;
+    width: 90%;
+    margin: 1em auto;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+    
+    a:hover {
+        background: rgba(0,0,0,0);
+        color: #fff;
+        box-shadow: inset 0 0 0 3px #f8f8f8;
+    }    
+
+    main {
+        background-color: lightgray;
+        border: $bordeVerde;
+        grid-row: span 2;
+        grid-column: span 5;
+        padding: 1.2em;
+    }
+
+    .posts {
+        background-color: lightgray;
+        border: $bordeVerde;
+        grid-row: span 2;
+        grid-column: span 3;
+        display: flex;
+        flex-direction: row;
+        padding: 1.2em;
+    }
+
+    .sidebar {
+        background-color: $verdePrimario;
+        border: $bordeVerde;
+        grid-row: span 2;
+        grid-column: span 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 1.2em;
+        }
+
+}
+
+section.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.home-intro {
+    width: 50%;
+    margin: 10px;
+}
+
+article.post {
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    border: $bordeVerde;
+    color: white;
+    border-radius: 3px;
+}

@@ -1,0 +1,14 @@
+/* Estilos para el header */
+header {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: row;
+    background-color: $verdeSecundario;
+      border: solid 1px black;
+    color: #cad2c5;
+      align-items: baseline;
+  }
+
+.logo {
+  width: 20px;
+}
