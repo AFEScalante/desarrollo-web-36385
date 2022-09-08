@@ -1,0 +1,18 @@
+/* Estilos para el footer */
+footer {
+    grid-column: 1/-1;
+    color: #cad2c5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-shadow: 2px 2px 4px #000;
+    border: solid 1px $verdeSecundario;
+
+    h3 {
+        transition: 0.5s;
+
+        &:hover {
+            font-size: 16px;
+        }
+    }
+}
